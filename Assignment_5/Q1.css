@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+   }
+
+   header, footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   }
+
+   .main-content {
+    display: flex;
+    flex-wrap: initial;
+    gap: 10px;
+    padding: 10px;
+   }
+
+   .left-column, .right-column {
+    flex: 1;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+   }
+
+   @media (max-width: 800px) {
+    .main-content {
+    flex-direction: column;
+    }
+   }
