@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>Styled Login Form</title>
+  <link rel="stylesheet" href="Q8.css">
+</head>
+<body>
+  <div class="container">
+    <form class="form" novalidate>
+      <h2>Login</h2>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+        <span class="error-message">Please enter a valid email.</span>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password" minlength="6">
+        <span class="error-message">Password must be at least 6 characters.</span>
+      </div>
+      <div class="form-group remember-me">
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember">Remember Me</label>
+      </div>
+      <button type="submit" class="submit-button">Login</button>
+    </form>
+  </div>
+</body>
+</html>
